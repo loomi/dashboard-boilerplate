@@ -10,3 +10,6 @@ build
 jsconfig.json
 
 README.md
+
+package.json
+yarn.lock
