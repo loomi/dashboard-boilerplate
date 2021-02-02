@@ -1,6 +1,6 @@
 /**
  * Fonts
  */
-export default {
-  default: `'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`,
+module.exports = {
+  default: `Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif`,
 };

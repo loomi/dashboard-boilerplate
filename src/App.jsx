@@ -1,3 +1,20 @@
-const App = () => <div className="App">App</div>;
+import { Suspense } from 'react';
+import { Layout } from 'antd';
+import { BrowserRouter } from 'react-router-dom';
 
-export default App;
+import withGlobalProvider from 'contexts/withGlobalProvider';
+import PageLoading from 'components/PageLoading';
+import Main from 'routes/Main';
+
+const App = () => (
+  <Layout>
+    <BrowserRouter>
+      <Suspense fallback={<PageLoading />}>
+        <p>Hello World</p>
+        <Main />
+      </Suspense>
+    </BrowserRouter>
+  </Layout>
+);
+
+export default withGlobalProvider(App);

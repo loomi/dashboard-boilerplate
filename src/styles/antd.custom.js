@@ -2,14 +2,14 @@
  * Ant Design custom theme
  * ref: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
  */
-import base from './base';
-import colors from './colors';
-import fonts from './fonts';
+const base = require('./base');
+const colors = require('./colors');
+const fonts = require('./fonts');
 
 /**
  * Custom Antd Theme
  */
-export default {
+module.exports = {
   // -------- Colors -----------
   '@primary-color': colors.primary,
   '@success-color': colors.success,
