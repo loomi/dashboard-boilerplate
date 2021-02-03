@@ -4,7 +4,7 @@
 module.exports = {
   white: '#FFFFFF',
   black: '#111111',
-  primary: '#2B5740',
+  primary: '#e50068',
   bodyBackground: '#F1F3FA',
   success: '#2B965E',
   warning: '#AE8F0C',

@@ -25,7 +25,7 @@ module.exports = {
   // -------- Heading and Text --------
   '@heading-color': colors.text,
   '@text-color': colors.text,
-  '@text-color-secondary': colors.textSecondary,
+  // '@text-color-secondary': colors.textSecondary,
 
   // -------- Vertical paddings --------
   //'@padding-lg': '24px', // containers
