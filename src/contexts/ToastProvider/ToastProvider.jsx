@@ -1,6 +1,7 @@
-import React, { createContext, useContext } from 'react';
+import { createContext, useContext } from 'react';
+import PropTypes from 'prop-types';
 
-import Toast, { showToast } from 'components/Toast/Toast';
+// import Toast, { showToast } from 'components/Toast/Toast';
 
 const ToastContext = createContext({
   toast: null,
@@ -8,12 +9,17 @@ const ToastContext = createContext({
 
 function ToastProvider({ children }) {
   return (
-    <ToastContext.Provider value={{ toast: showToast }}>
-      {children}
-      <Toast />
-    </ToastContext.Provider>
+    <>{children}</>
+    // <ToastContext.Provider value={{ toast: showToast }}>
+    // {children}
+    // <Toast />
+    // </ToastContext.Provider>
   );
 }
+
+ToastProvider.propTypes = {
+  children: PropTypes.element.isRequired,
+};
 
 export const useToast = () => useContext(ToastContext);
 

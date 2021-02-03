@@ -33,7 +33,7 @@
     "build": "craco --max_old_space_size=4096 build",
     "test": "craco test",
     "eject": "craco eject",
-    "lint": "node_modules/.bin/eslint src/*.jsx && node_modules/.bin/eslint src/views/**/*.jsx && node_modules/.bin/eslint src/components/**/*.jsx",
+    "lint": "node_modules/.bin/eslint \"**/*.{js,jsx}\"",
     "code-check": "prettier --check . && yarn lint",
     "code-format": "prettier --write . && yarn lint"
   },
