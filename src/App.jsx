@@ -10,7 +10,6 @@ const App = () => (
   <Layout>
     <BrowserRouter>
       <Suspense fallback={<PageLoading />}>
-        <p>Hello World</p>
         <Main />
       </Suspense>
     </BrowserRouter>

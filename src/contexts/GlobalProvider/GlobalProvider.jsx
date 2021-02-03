@@ -3,7 +3,7 @@ import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
 import theme from 'styles/theme';
 
-// import AuthProvider from './AuthProvider';
+import AuthProvider from 'contexts/AuthProvider';
 // import ToastProvider from './ToastProvider';
 
 const GlobalStyle = createGlobalStyle`
@@ -34,10 +34,10 @@ function GlobalProvider({ children }) {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      {/* <AuthProvider> */}
-      {/* <ToastProvider>{children}</ToastProvider> */}
-      {/* </AuthProvider> */}
-      {children}
+      <AuthProvider>
+        {/* <ToastProvider>{children}</ToastProvider> */}
+        {children}
+      </AuthProvider>
     </ThemeProvider>
   );
 }
