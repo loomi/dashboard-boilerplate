@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-// import Sidebar from 'components/Sidebar';
+import Sidebar from 'components/Sidebar';
 import NProgress from 'components/NProgress';
 
 const LazyDashboard = lazy(() => import('views/Dashboard'));
@@ -9,7 +9,7 @@ const LazyDashboard = lazy(() => import('views/Dashboard'));
 function Protected() {
   return (
     <>
-      {/* <Sidebar /> */}
+      <Sidebar />
 
       <Suspense fallback={<NProgress />}>
         <Switch>

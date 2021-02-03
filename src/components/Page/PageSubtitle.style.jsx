@@ -1,0 +1,28 @@
+import { Typography } from 'antd';
+import styled from 'styled-components';
+
+export const StyledPageSubtitle = styled(Typography.Text)`
+  display: flex;
+  align-items: center;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    margin-top: 0.3rem;
+    margin-left: 32px;
+    background: ${({ color, theme }) => theme.colors[color] || color};
+  }
+`;
+
+StyledPageSubtitle.defaultProps = {
+  strong: true,
+  mt: 4,
+  mb: 4,
+  fontSize: 2,
+  color: 'primary',
+};
+
+export default {
+  PageSubtitle: StyledPageSubtitle,
+};
