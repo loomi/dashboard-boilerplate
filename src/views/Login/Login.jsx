@@ -12,8 +12,15 @@ import LoginForm from './LoginForm';
 
 const Login = () => {
   const [feedback, setFeedback] = useState();
-  const { login } = useAuth();
+  const { login, loginMocked } = useAuth();
 
+  const handleLoginMocked = async () => {
+    await new Promise((r) => setTimeout(r, 3000));
+
+    loginMocked();
+  };
+
+  // eslint-disable-next-line no-unused-vars
   const handleLogin = async (values) => {
     if (window.navigator.onLine) {
       setFeedback(null);
@@ -36,7 +43,7 @@ const Login = () => {
   return (
     <LayoutAuth title="Login" feedback={feedback}>
       <Formik
-        onSubmit={handleLogin}
+        onSubmit={handleLoginMocked}
         component={LoginForm}
         initialValues={{ email: '', password: '' }}
         validationSchema={loginFormValidationSchema}

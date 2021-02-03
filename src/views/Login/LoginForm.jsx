@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-// import TextField from 'components/inputs/TextField';
-// import PasswordField from 'components/inputs/PasswordField';
+import TextField from 'components/inputs/TextField';
+import PasswordField from 'components/inputs/PasswordField';
 
 import Styled, { SpacerLinks } from './LoginForm.style';
 
 const LoginForm = ({ isSubmitting }) => (
   <Styled.Form className="login">
-    {/* <TextField name="email" label="E-mail" floatLabel red /> */}
-    {/* <PasswordField name="password" label="Password" floatLabel red /> */}
+    <TextField name="email" label="E-mail" />
+    <PasswordField name="password" label="Password" />
 
     <SpacerLinks />
 
