@@ -1,7 +1,7 @@
 /**
  * Colors
  */
-module.exports = {
+export default {
   white: '#FFFFFF',
   black: '#111111',
   primary: '#e50068',

@@ -2,9 +2,9 @@
  * Ant Design custom theme
  * ref: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
  */
-const base = require('./base');
-const colors = require('./colors');
-const fonts = require('./fonts');
+import base from './base';
+import colors from './colors';
+import fonts from './fonts';
 
 /**
  * Custom Antd Theme

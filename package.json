@@ -31,7 +31,18 @@
     "test": "craco test",
     "eject": "craco eject",
     "lint": "node_modules/.bin/eslint src --max-warnings=0",
-    "lint:fix": "prettier --write && yarn lint --fix"
+    "lint:fix": "prettier --write . && yarn lint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn prettier --write",
+      "yarn lint --fix"
+    ]
   },
   "eslintConfig": {
     "extends": [

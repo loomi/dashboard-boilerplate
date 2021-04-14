@@ -11,12 +11,6 @@ export const password = () =>
     .matches(/\W/, 'A senha deve ter caractere(s) especial(is)')
     .min(8, 'A senha deve ter pelo menos 8 caracteres');
 
-export const url = () =>
-  Yup.string().matches(
-    /^((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/,
-    'Insira uma URL válida',
-  );
-
 export const phone = () =>
   Yup.string().matches(
     /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s./0-9]*$/,
