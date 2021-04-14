@@ -1,4 +1,5 @@
 import { Row } from 'antd';
+
 import Logo from 'components/Logo';
 
 const SidebarLogo = () => (

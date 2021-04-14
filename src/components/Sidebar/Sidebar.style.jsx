@@ -1,8 +1,8 @@
+import { Button, Layout } from 'antd';
 import styled from 'styled-components';
-import { Layout, Button } from 'antd';
 
-import fonts from 'styles/fonts';
 import colors from 'styles/colors';
+import fonts from 'styles/fonts';
 
 export const StyledSidebar = styled(Layout.Sider)`
   .ant-layout-sider-children {

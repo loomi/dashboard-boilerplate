@@ -1,5 +1,6 @@
 import * as axios from 'axios';
 import Cookies from 'js-cookie';
+
 import { AUTH_ACCESS_TOKEN, AUTH_REFRESH_TOKEN } from 'variables';
 
 const { REACT_APP_API_URL } = process.env;

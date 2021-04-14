@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-import TextField from 'components/inputs/TextField';
 import PasswordField from 'components/inputs/PasswordField';
+import TextField from 'components/inputs/TextField';
 
 import Styled, { SpacerLinks } from './LoginForm.style';
 

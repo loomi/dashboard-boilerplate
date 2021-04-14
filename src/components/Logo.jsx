@@ -1,8 +1,8 @@
+import { ReactComponent as GZEROLogo } from 'assets/gzero-logo.svg';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 import colors from 'styles/colors';
-import { ReactComponent as GZEROLogo } from 'assets/gzero-logo.svg';
 
 const brandColors = {
   default: colors.secondary,

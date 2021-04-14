@@ -1,9 +1,8 @@
-import styled from 'styled-components';
 import { Button } from 'antd';
 import { Form } from 'formik';
+import styled from 'styled-components';
 
 // import Paragraph from 'components/Paragraph';
-
 import colors from 'styles/colors';
 
 export const StyledForm = styled(Form)`

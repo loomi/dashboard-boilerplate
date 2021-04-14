@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { Row, Tabs } from 'antd';
+import styled from 'styled-components';
 
 export const StyledPageTabs = styled(Row)`
   h2.ant-typography {

@@ -1,9 +1,12 @@
-import { useAuth } from 'contexts/AuthProvider';
 import { RightOutlined } from '@ant-design/icons';
+
+import { useAuth } from 'contexts/AuthProvider';
+
 import * as Icons from 'components/icons';
+
 import {
-  StyledSidebarMenuItemDivider,
   StyledLogoutButton,
+  StyledSidebarMenuItemDivider,
 } from './Sidebar.style';
 
 const { Logout } = Icons;

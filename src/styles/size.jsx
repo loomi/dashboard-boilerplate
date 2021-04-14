@@ -1,6 +1,6 @@
-const base = require('./base');
+import base from './base';
 
-module.exports = {
+export default {
   fontSize: base.fontSize,
   fontSizeLg: `calc(${base.fontSize} + .1rem`,
   fontSizeSm: '.75rem',

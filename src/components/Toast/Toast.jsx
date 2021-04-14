@@ -1,6 +1,7 @@
 import { toast } from 'react-toastify';
-import { StyledToast } from './Toast.styled';
+
 import Message from './Message';
+import { StyledToast } from './Toast.styled';
 
 export const showToast = ({ title, text, error, content }) =>
   error

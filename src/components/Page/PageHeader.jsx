@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import { Typography } from 'antd';
+import PropTypes from 'prop-types';
 
 const PageHeader = ({ title }) => (
   <Typography.Title level={2}>{title}</Typography.Title>

@@ -1,8 +1,10 @@
 import { useEffect } from 'react';
 import NProgressComp from 'nprogress';
 import { createGlobalStyle } from 'styled-components';
-import 'nprogress/nprogress.css';
+
 import colors from 'styles/colors';
+
+import 'nprogress/nprogress.css';
 
 export const GlobalNProgressOverride = createGlobalStyle`
   #nprogress .bar {

@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { normalize } from 'styled-normalize';
-import theme from 'styles/theme';
 
 import AuthProvider from 'contexts/AuthProvider';
+import theme from 'styles/theme';
 // import ToastProvider from './ToastProvider';
 
 const GlobalStyle = createGlobalStyle`

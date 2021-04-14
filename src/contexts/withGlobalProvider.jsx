@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import GlobalProvider from './GlobalProvider';
 
 const withGlobalProvider = (Component) => (props) => (

@@ -1,8 +1,8 @@
 import { lazy, Suspense } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import Sidebar from 'components/Sidebar';
 import NProgress from 'components/NProgress';
+import Sidebar from 'components/Sidebar';
 
 const LazyDashboard = lazy(() => import('views/Dashboard'));
 

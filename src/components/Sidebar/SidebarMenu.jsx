@@ -1,9 +1,10 @@
-import { Menu } from 'antd';
 import { useRouteMatch } from 'react-router-dom';
+import { Menu } from 'antd';
 
 import { useAuth } from 'contexts/AuthProvider';
 
 import * as Icons from 'components/icons';
+
 import SidebarMenuItem from './SidebarMenuItem';
 import SidebarProfile from './SidebarProfile';
 

@@ -26,10 +26,10 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco --max_old_space_size=4096 build",
-    "test": "craco test",
-    "eject": "craco eject",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "lint": "node_modules/.bin/eslint src --max-warnings=0",
     "lint:fix": "prettier --write . && yarn lint --fix"
   },

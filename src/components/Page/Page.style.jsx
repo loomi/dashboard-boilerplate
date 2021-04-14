@@ -1,5 +1,6 @@
-import styled from 'styled-components';
 import { Layout } from 'antd';
+import styled from 'styled-components';
+
 import colors from 'styles/colors';
 
 export const StyledPage = styled(Layout.Content)`

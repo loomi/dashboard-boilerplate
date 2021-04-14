@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import { StyledPageSubtitle } from './PageSubtitle.style';
 
 const PageSubtitle = ({ children, ...props }) => (

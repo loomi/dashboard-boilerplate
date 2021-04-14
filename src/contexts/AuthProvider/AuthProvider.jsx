@@ -1,8 +1,9 @@
-import { useState, useMemo, useEffect, useContext, createContext } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { useRequest } from '@umijs/hooks';
-import Cookies from 'js-cookie';
-import { AUTH_REFRESH_TOKEN, AUTH_ACCESS_TOKEN, USER } from 'variables';
 import { AuthAPI } from 'api';
+import Cookies from 'js-cookie';
+
+import { AUTH_ACCESS_TOKEN, AUTH_REFRESH_TOKEN, USER } from 'variables';
 
 const {
   REACT_APP_MOCKED_AUTH_REFRESH_TOKEN,

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import PageHeader from './PageHeader';
 import Styled from './PageTabs.style';
 

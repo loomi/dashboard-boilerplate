@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
 import {
-  StyledMessageRow,
-  StyledMessageContainer,
-  StyledTitle,
   StyledDivider,
+  StyledMessageContainer,
+  StyledMessageRow,
   StyledText,
+  StyledTitle,
 } from './Toast.styled';
 
 const Message = ({ title, text, error, children }) => (

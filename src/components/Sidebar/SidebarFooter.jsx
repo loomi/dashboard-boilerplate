@@ -1,6 +1,5 @@
-import SidebarLogout from './SidebarLogout';
-
 import { StyledSidebarFooter } from './Sidebar.style';
+import SidebarLogout from './SidebarLogout';
 
 function SidebarFooter() {
   return (

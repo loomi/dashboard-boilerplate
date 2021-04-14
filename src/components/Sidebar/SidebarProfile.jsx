@@ -1,7 +1,7 @@
 import {
-  StyledSidebarMenuItemProfileName,
   StyledSidebarMenuItemFirstLetter,
   StyledSidebarMenuItemName,
+  StyledSidebarMenuItemProfileName,
 } from './Sidebar.style';
 
 const SidebarProfile = ({ name = '' }) => (

@@ -1,5 +1,6 @@
 import { Tabs } from 'antd';
-import { StyledPage, StyledLayout } from './Page.style';
+
+import { StyledLayout, StyledPage } from './Page.style';
 import PageHeader from './PageHeader';
 import PageSubtitle from './PageSubtitle';
 import PageTabs from './PageTabs';

@@ -1,5 +1,5 @@
+import { Alert, Col, Row } from 'antd';
 import PropTypes from 'prop-types';
-import { Row, Col, Alert } from 'antd';
 
 import Styled from './LayoutAuth.style';
 

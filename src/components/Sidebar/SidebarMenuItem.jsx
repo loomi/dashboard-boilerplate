@@ -1,7 +1,8 @@
-import PropTypes from 'prop-types';
-import { Menu } from 'antd';
 import { NavLink } from 'react-router-dom';
 import { RightOutlined } from '@ant-design/icons';
+import { Menu } from 'antd';
+import PropTypes from 'prop-types';
+
 import { StyledSidebarMenuItemDivider } from './Sidebar.style';
 
 const SidebarMenuItem = ({ path, label, icon: Icon, ...props }) => (

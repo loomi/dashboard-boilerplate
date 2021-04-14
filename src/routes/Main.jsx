@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
 import { useAuth } from 'contexts/AuthProvider';
 

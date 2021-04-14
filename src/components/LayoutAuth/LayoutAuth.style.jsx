@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { Layout, Col } from 'antd';
-
+import { Col, Layout } from 'antd';
 import bgAuth from 'assets/bg-auth.png';
+import styled from 'styled-components';
+
 import colors from 'styles/colors';
 
 export const StyledContent = styled(Layout.Content)`

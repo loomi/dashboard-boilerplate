@@ -1,8 +1,11 @@
-import styled from 'styled-components';
-import colors from 'styles/colors';
 import { ToastContainer } from 'react-toastify';
 import { Divider } from 'antd';
+import styled from 'styled-components';
+
+import colors from 'styles/colors';
+
 import Paragraph from 'components/Paragraph';
+
 import 'react-toastify/dist/ReactToastify.min.css';
 
 export const StyledToast = styled(ToastContainer)`
