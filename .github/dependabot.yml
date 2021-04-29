@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: antd
+    versions:
+    - 4.15.1
+    - 4.15.2
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.2.0
+  - dependency-name: react-dev-utils
+    versions:
+    - 11.0.4
+  - dependency-name: "@ant-design/icons"
+    versions:
+    - 4.6.2
+  - dependency-name: yup
+    versions:
+    - 0.32.9
+  - dependency-name: ini
+    versions:
+    - 1.3.8
