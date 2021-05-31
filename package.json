@@ -6,7 +6,7 @@
     "@ant-design/icons": "^4.4.0",
     "@craco/craco": "^6.1.0",
     "@umijs/hooks": "^1.9.3",
-    "antd": "^4.12.0",
+    "antd": "^4.16.1",
     "axios": "^0.21.1",
     "craco-less": "^1.17.1",
     "dayjs": "^1.10.4",
